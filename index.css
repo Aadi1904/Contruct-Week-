@@ -1,0 +1,33 @@
+/* Header Section Starts*/
+#navbar{
+    background-color: rgb(231,244,255);
+    width: 100%;
+    height: 40px;
+    margin-top:0px;
+    padding-top: 0px;
+}
+#bnavbar{
+    display: flex;
+    padding: 10px 10px 10px 25px;
+    
+}
+#search{
+    border-radius: 50px;
+    border: 1px solid black;   
+    padding: 10px 10px 10px 30px;
+    margin: 10px 10px 10px 30px;
+    width: 500px;
+    height: 25px;
+}
+input{
+    font-size: 20px;
+    border: none;
+    width: 350px;
+}
+#btn{
+    margin-left: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
