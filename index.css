@@ -9,6 +9,7 @@
 #bnavbar{
     display: flex;
     padding: 10px 10px 10px 25px;
+    padding-top: 50px;
     
 }
 #search{
@@ -17,17 +18,38 @@
     padding: 10px 10px 10px 30px;
     margin: 10px 10px 10px 30px;
     width: 500px;
-    height: 25px;
+    height: 50px;
 }
 input{
     font-size: 20px;
     border: none;
-    width: 350px;
 }
 #btn{
-    margin-left: 30px;
+    margin-left: 170px;
     border: none;
     background-color: white;
     font-size: 20px;
     font-weight: bold;
+}
+#innerdiv>img{
+   height: 300px;
+   width: 100%;
+}
+/* #vl{
+    border-right: 2px solid black;
+    height: 5px;
+} */
+
+#pic{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+#bpic{
+    margin-top: 100px;
+    margin-left: 40px;   
+}
+.hM-z{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
