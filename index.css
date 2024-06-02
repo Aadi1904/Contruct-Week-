@@ -31,6 +31,29 @@ input{
     font-size: 20px;
     font-weight: bold;
 }
+/* List CSS */
+#list{
+    display: flex;
+    position: relative;
+    padding-top: 100px;
+   justify-content: space-between;
+}
+ul{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+ul>li{
+    color: black;
+    
+}
+#help{
+    margin-right: 30px;
+    font-weight: bold;
+}
+/* end here */
 #innerdiv>img{
    height: 300px;
    width: 100%;
@@ -41,18 +64,14 @@ input{
 } */
 
 #pic{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 20px;
 }
 #bpic{
     margin-top: 100px;
     margin-left: 40px;   
 }
-.hM-z{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+/* Grid1 */
 #Grid1{
     display: flex;
     margin-top: 50px;
@@ -71,3 +90,30 @@ input{
     margin-top: 30px;
     font-weight: bold;
 }
+#Grid1>div>p{
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#BlueGrid{
+    margin-top: 100px;
+    display: flex;
+
+}
+.L6-z {
+height: 400px;
+width: 400px;
+margin-left: 80px;
+
+}
+#BlueGrid>div>p{
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+/* finalsale */
